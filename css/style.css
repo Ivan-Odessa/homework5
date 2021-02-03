@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:500&display=swap');
+@font-face {
+	font-family: 'robotron';
+	src: url('../fonts/robotron.woff2') format('woff2'), url('../fonts/robotron.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ALoveOfThunder';
+	src: url('../fonts/ALoveOfThunder.woff2') format('woff2'), url('../fonts/ALoveOfThunder.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*li {
+	list-style: none;
+}*/
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+body {
+	font-family: 'Arial', serif;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+/* --------------- */
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.title {
+	font-family: 'ALoveOfThunder';
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.main__title {
+	font-family: 'Fira Sans';
+	font-weight: 600;
+	font-size: 50px;
+	text-align: center;
+	margin: 30px 0 80px;
+}
+
+.main__img {
+	margin-bottom: 30px;
+}
+
+.container-text {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.main__text {
+	font-family: 'robotron';
+	font-weight: 700;
+	margin-bottom: 30px;
+	background-color: gold;
+}
+
+.main__text-inline {
+	display: inline;
+	background-color: tomato;
+}
+
+.about__title {
+	padding-top: 20px;
+	font-size: 40px;
+	color: grey;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.about__nav {
+	padding-left: 20px;
+}
+
+.about__list {
+	margin-bottom: 60px;
+	color: orchid;
+	padding: 10px 20px;
+}
+
+.about__item {
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.quality {
+	margin-bottom: 30px;
+	overflow: auto;
+	height: 100px;
+}
+
+.quality__text {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: turquoise;
+}
+
+.quality__item {
+	margin-bottom: 20px;
+}
+
+.touring {
+	margin-bottom: 50px;
+}
+
+.touring__text {
+	margin-bottom: 20px;
+}
+
+.touring-box {
+	margin-bottom: 30px;
+}
+
+.touring-box__text {
+	width: 54%;
+	padding: 10px;
+	margin-top: 100px;
+}
+
+.touring__img {
+	max-width: 500px;
+	margin-top: -269px;
+	margin-left: 700px;
+}
+
+.tourism__title {
+	background-color: springgreen;
+}
+
+.tourism__text {
+	padding-bottom: 30px;
+}
+
+.tourism__text>span {
+	color: rgb(17, 202, 73);
+	text-transform: uppercase;
+}
+
+.img-box {
+	text-align: center;
+	margin-bottom: 80px;
+	font-style: italic;
+	color: mediumblue;
+}
+
+.tourism__img {
+	width: 1200px;
+	margin-bottom: 10px;
+}
+
+.title {
+	text-shadow: 5px 20px 20px gold, 5px 20px 20px red;
+}
+
+.tourism__img {
+	max-width: 500px;
+}
+
+.tormoza__img {
+	max-width: 1000px;
+}
+
+.img-box-small {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.img-box-small>p {
+	font-style: italic;
+}
+
+.fork__text {
+	margin-bottom: 20px;
+}
+
+.fork__title {
+	color: slateblue;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.fork__list {
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.fork__img {
+	max-width: 900px;
+}
+
+.size {
+	margin-bottom: 30px;
+}
+
+.size__title {
+	text-align: right;
+	text-decoration: underline;
+}
+
+.size__text {
+	margin-bottom: 20px;
+}
+
+.size__img {
+	margin-bottom: 20px;
+}
+
+.results {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.results>span {
+	display: inline-block;
+	color: orange;
+	font-size: 25px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.results__list {
+	list-style: none;
+	color: orangered;
+	margin-bottom: 20px;
+}
+
+.results__text {
+	/*color: springgreen;*/
+	background-color: violet;
+	display: inline-block;
+}
+
+.footer {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
